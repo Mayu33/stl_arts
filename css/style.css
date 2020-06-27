@@ -1,5 +1,4 @@
 
-
 /* Define fundo do Body */
 .body {
 
@@ -107,8 +106,8 @@ li.socialbottom {
 
 /* Botões de navegação da Galeria */
 .botaogaleria {
-  background-image: linear-gradient(#31A2A2, #203E3E);
-  border: 1px solid #292929;
+  background-image: transparent;
+  border: 2px solid white;
   padding: 10px;
   width: 200px;
   border-radius: 30px;
@@ -116,6 +115,10 @@ li.socialbottom {
   text-align: center;
   text-decoration: none;
   list-style: none;
+}
+
+.botaogaleria:hover {
+  background-image: linear-gradient(#31A2A2, #203E3E);
 }
 
 
@@ -285,6 +288,7 @@ header {
       display: none;
     }
   }
+
 
 
 
